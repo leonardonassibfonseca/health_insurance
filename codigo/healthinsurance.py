@@ -6,7 +6,7 @@ import numpy as np
 class HealthInsurance:
     def __init__(self):
         # Colocando os caminhos dos arquivos que foram transformados e salvos no Pickle
-        self.home_path = '/home/leonardo/projetos_/propensao_de_compra/'
+        self.home_path = ''
         self.Annual_Premium_scaler = pickle.load(
             open(self.home_path + 'transformacoes/Annual_Premium_scaler.pkl', 'rb'))
         self.Age_scaler = pickle.load(

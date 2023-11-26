@@ -10,7 +10,7 @@ from flask import Flask, request, Response
 from codigo.healthinsurance import HealthInsurance
 
 # Colocando o caminho do arquivo do modelo treinado que foi salvo no Pickle
-path = '/home/leonardo/projetos_/propensao_de_compra/'
+path = ''
 modelo = pickle.load(open(path + 'modelo/PA004.pkl', 'rb'))
 
 # Instaciando objeto da classe Flask que será a API
