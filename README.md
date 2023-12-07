@@ -1,6 +1,7 @@
 # Health Insurance
 
 Propensão de clientes na modalidade Cross-Sell em uma seguradora de saúde
+
 ## 1.	Problema de negócio
 Uma seguradora que oferece Seguro Saúde aos seus clientes, agora eles precisam da sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no Seguro Automóvel oferecido pela empresa.
 
@@ -15,17 +16,17 @@ Construir um modelo para prever se um cliente estaria interessado em seguro auto
 
 ## 3.	Premissas do negócio
 O custo unitário por cada contato do time comercial é de Rs 4
-A receita bruta por cada cliente que aderisse ao seguro de veículo seria de Rs 40 
+A receita bruta por cada cliente que aderisse ao seguro de veículo seria de Rs 40.
 
 ## 4.	Estratégia adotada para solução
 
-### Passo 1 - Descrição dos dados: O objetivo deste passo é ter um entendimento inicial de como os dados estão relacionados com o problema de negócio proposto, para tal, lançando mão de algumas métricas estatísticas de posição e distribuição.  
- 
-### Passo 2 - Engenharia de atributos: Neste passo foram criadas novas variáveis a partir das variáveis originais a fim de melhorar a qualidade dos dados facilitando seu o entendimento.
+Passo 1 - Descrição dos dados: O objetivo deste passo é ter um entendimento inicial de como os dados estão relacionados com o problema de negócio proposto, para tal, lançando mão de algumas métricas estatísticas de posição e distribuição.
 
-### Passo 3 - Filtragem das variáveis: No processo de filtragem, busca-se selecionar e reter apenas as variáveis relevantes para a análise ou modelagem, com base nos objetivos do negócio e nas características do problema em questão.
+Passo 2 - Engenharia de atributos: Neste passo foram criadas novas variáveis a partir das variáveis originais a fim de melhorar a qualidade dos dados facilitando seu o entendimento.
+
+Passo 3 - Filtragem das variáveis: No processo de filtragem, busca-se selecionar e reter apenas as variáveis relevantes para a análise ou modelagem, com base nos objetivos do negócio e nas características do problema em questão.
  
-### Passo 4 - Análise exploratória: A análise exploratória dos dados (EDA) tem como principal objetivo proporcionar uma compreensão mais aprofundada dos dados, tais como: Compreender a distribuição das variáveis numéricas e categóricas, identificar outliers (valores atípicos), se existe desbalanceamento da variável resposta, correlações entre as variáveis entre outras análises.
+Passo 4 - Análise exploratória: A análise exploratória dos dados (EDA) tem como principal objetivo proporcionar uma compreensão mais aprofundada dos dados, tais como: Compreender a distribuição das variáveis numéricas e categóricas, identificar outliers (valores atípicos), se existe desbalanceamento da variável resposta, correlações entre as variáveis entre outras análises.
 
 Passo 5 - Preparação dos dados: Neste tópico, os dados serão transformados, ou seja, as variáveis categóricas serão convertidas em números, pois os algoritmos de machine learning não tem uma boa performance com dados não numéricos. Os dados também precisarão ser reescalados, ou seja, colocar as variáveis em uma escala comum.
  
@@ -39,7 +40,7 @@ Passo 9 - Performance do negócio: Nesta etapa, o termo "performance do negócio
 
 Passo 10 - Modelo em produção: Nesta etapa final, o melhor modelo treinado é implantado e usado em um ambiente operacional do mundo real. O objetivo principal deste passo de colocar um modelo em produção é transformar o trabalho de desenvolvimento de modelos em um sistema que pode fornecer valor contínuo e automático.
 
-## 5.	3 insights encontrados
+## 5.	Top 3 insights
 Hipótese 1: Clientes que tem carteira de motorista teriam mais interesse em contratar um seguro de veículo?
 Falsa: Clientes que tem carteira de motorista NÃO teriam mais interesse em contratar um seguro de veículo.
 Hipótese 2: Clientes que já possuíam seguro anteriormente teriam mais interesse em contratar um novo seguro de veículo?
