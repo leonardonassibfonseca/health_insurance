@@ -55,12 +55,9 @@ Foram feitos testes com vários algoritmos de machine learning, utilizando a té
 ## 7.	Performance do modelo de machine learning
 O algoritmo de machine learning escolhido foi o ExtraTreesClassifier.
 
- 
-
-
 ## 8.	Resultado do negócio
 Conforme mostrado na figura abaixo, à medida que aumenta a quantidade de clientes consultados na base de clientes de seguro saúde, a propensão de interessados também aumenta, ao ponto que para alcançar cerca de 100% dos clientes interessados em adquirir um seguro de veículo é preciso ligar para somente quase 60% da base de clientes do seguro saúde.
- 
+ ![Grafico](Img/Grafico.JPG)
 
 Do ponto de vista de negócio e assumindo que o custo unitário é de Rs 4 e a receita bruta é de Rs 40, segue na tabela abaixo qual o valor da receita em relação ao percentual de clientes consultados.  
 
