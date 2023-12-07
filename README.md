@@ -43,11 +43,12 @@ Passo 10 - Modelo em produção: Nesta etapa final, o melhor modelo treinado é 
 ## 5.	Top 3 insights
 Hipótese 1: Clientes que tem carteira de motorista teriam mais interesse em contratar um seguro de veículo?
 Falsa: Clientes que tem carteira de motorista NÃO teriam mais interesse em contratar um seguro de veículo.
+
 Hipótese 2: Clientes que já possuíam seguro anteriormente teriam mais interesse em contratar um novo seguro de veículo?
 Falsa: Clientes que já possuíam seguro anteriormente NÃO teriam mais interesse em contratar um novo seguro de veículo.
+
 Hipótese 3: Clientes que tem veículos mais novos teriam mais interesse em contratar um seguro de veículo?
 Falsa: Clientes que tem veículos entre 1 e 2 anos teriam mais interesse em contratar um seguro de veículo.
-
 
 ## 6.	Aplicação do modelo de machine learning
 Foram feitos testes com vários algoritmos de machine learning, utilizando a técnica de cross-validation e ajuste fino dos parâmetros.
