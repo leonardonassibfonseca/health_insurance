@@ -53,20 +53,22 @@ Hipótese 3: Clientes que tem veículos mais novos teriam mais interesse em cont
 Falsa: Clientes que tem veículos entre 1 e 2 anos teriam mais interesse em contratar um seguro de veículo.
 
 ## 6.	Aplicação do modelo de machine learning
-Foram feitos testes com vários algoritmos de machine learning, utilizando a técnica de cross-validation e ajuste fino dos parâmetros.
+Foram feitos testes com vários algoritmos de machine learning, utilizando a técnica de cross-validation, balanceamento e ajuste fino dos parâmetros.
+
+![Tabela](Img/Tabela_algoritmos.JPG)
 
 ## 7.	Performance do modelo de machine learning
 O algoritmo de machine learning escolhido foi o ExtraTreesClassifier.
 
+![Resultado_algoritmo](Img/resultado_algoritmo.JPG)
+
 ## 8.	Resultado do negócio
 Conforme informação do projeto, a seguradora tem capacidade de entrar em contato com aproximadamente 20.000 clientes para oferecer um seguro de veículo.
-
-![Tabela](Img/Tabela_algoritmos.JPG)
 
 Do ponto de vista de negócio, estes 20.000 clientes correspondem a pouco mais de 26% da base de clientes.
 Assumindo que o custo unitário é de Rs 4 e a receita bruta é de Rs 40, segue na tabela abaixo qual o valor da receita em relação ao percentual de clientes consultados.  
 
-![Resultado](Img/resultado_negocio.JPG)
+![Resultado_negocio](Img/resultado_negocio.JPG)
 
 ## 9.	Conclusão
 As conclusões deste projeto de propensão de compra de seguro veicular revelaram que as variáveis disponíveis se mostraram insuficientes para impulsionar um desempenho mais robusto nos algoritmos de machine learning. Além disso, observou-se uma tendência significativa, indicando que motoristas sem carteira de motorista demonstraram maior interesse na aquisição de seguro de veículo em comparação com seus homólogos que possuem carteira de motorista. Essas descobertas destacam a importância de considerar variáveis adicionais e nuances comportamentais ao desenvolver modelos classificatórios para compreender as preferências dos consumidores em relação a seguro de veículo.
