@@ -66,7 +66,7 @@ Conforme informação do projeto, a seguradora tem capacidade de entrar em conta
 Do ponto de vista de negócio, estes 20.000 clientes correspondem a pouco mais de 26% da base de clientes.
 Assumindo que o custo unitário é de Rs 4 e a receita bruta é de Rs 40, segue na tabela abaixo qual o valor da receita em relação ao percentual de clientes consultados.  
 
-![Resultado](Img/resultado_algoritmos.JPG)
+![Resultado](Img/resultado_negocio.JPG)
 
 ## 9.	Conclusão
 As conclusões deste projeto de propensão de compra de seguro veicular revelaram que as variáveis disponíveis se mostraram insuficientes para impulsionar um desempenho mais robusto nos algoritmos de machine learning. Além disso, observou-se uma tendência significativa, indicando que motoristas sem carteira de motorista demonstraram maior interesse na aquisição de seguro de veículo em comparação com seus homólogos que possuem carteira de motorista. Essas descobertas destacam a importância de considerar variáveis adicionais e nuances comportamentais ao desenvolver modelos classificatórios para compreender as preferências dos consumidores em relação a seguro de veículo.
