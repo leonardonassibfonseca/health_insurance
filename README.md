@@ -61,7 +61,7 @@ O algoritmo de machine learning escolhido foi o ExtraTreesClassifier.
 ## 8.	Resultado do negócio
 Conforme informação do projeto, a seguradora tem capacidade de entrar em contato com aproximadamente 20.000 clientes para oferecer um seguro de veículo.
 
-![Resultado](Img/Tabela_algoritmos.JPG)
+![Resultado](Img/Resultado_algoritmos.JPG)
 
 Do ponto de vista de negócio, estes 20.000 clientes correspondem a pouco mais de 26% da base de clientes.
 Assumindo que o custo unitário é de Rs 4 e a receita bruta é de Rs 40, segue na tabela abaixo qual o valor da receita em relação ao percentual de clientes consultados.  
